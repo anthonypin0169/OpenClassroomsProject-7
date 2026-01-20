@@ -1,0 +1,14 @@
+.nav {
+  display: flex;
+  text-decoration: none;
+  gap: 26px;
+}
+.nav_link {
+  color: black;
+}
+.nav_link:active {
+  color: black;
+}
+.nav_link:visited {
+  color: black;
+}/*# sourceMappingURL=Nav.css.map */

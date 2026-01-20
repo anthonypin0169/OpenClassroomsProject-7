@@ -1,0 +1,17 @@
+.banner{
+    margin: 0 auto;
+    height: 223px;
+    max-width: 1240px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &_title{
+        font-weight: 700;
+        font-size: 48px;
+        // color: white;
+    }
+}

@@ -1,0 +1,16 @@
+.banner {
+  margin: 0 auto;
+  height: 223px;
+  max-width: 1240px;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner_title {
+  font-weight: 700;
+  font-size: 48px;
+}/*# sourceMappingURL=Banner.css.map */

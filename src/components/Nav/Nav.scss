@@ -1,0 +1,14 @@
+.nav{
+    display: flex;
+    text-decoration: none;
+    gap: 26px;
+    &_link{
+        color: black;
+        &:active{
+            color: black;
+        }
+        &:visited{
+            color: black;
+        }
+    }
+}
