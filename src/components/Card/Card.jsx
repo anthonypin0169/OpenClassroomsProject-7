@@ -1,15 +1,15 @@
-import React from "react"
+import { Link } from "react-router-dom"
 import "./Card.css"
 
-function Card({title, cover}) {
+function Card({id, title, cover}) {
     return (
-        <article className="card">
+        <Link to = {`/rental/${id}`} className="card">
             <img className="card_img" 
             src={cover} 
             alt={title} 
             />
             <h2 className="card_title">{title}</h2>
-        </article>
+        </Link>
     )
 }
 
