@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"RentalDetails.css"}
+{"version":3,"sources":["RentalDetails.scss","RentalDetails.css"],"names":[],"mappings":"AAAA;EACI,eAAA;EACA,cAAA;ACCJ;;ADCA;EACI,cAAA;ACEJ;;ADCA;EACI,aAAA;EACA,8BAAA;ACEJ","file":"RentalDetails.css"}
