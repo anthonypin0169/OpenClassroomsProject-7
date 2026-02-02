@@ -2,11 +2,12 @@ import React from "react"
 import "./About.css"
 import Banner from "../../components/Banner/Banner"
 import Collapse from "../../components/Collapse/Collapse"
+import BannerImg2 from "../../img/BannerImg2.png"
 
 function About() {
   return (
     <main>
-      <Banner />
+      <Banner pics={BannerImg2} title = "" />
       <div className="collapse-container">
         <Collapse title= "Fiabilité">Les annonces postées sur Kasa garentissent une fiabilité totale. Lest photots sont conformes aux logements, et toutes les informations sont régulierement verifiées par nos équipes.</Collapse>
         <Collapse title= "Respect">La bienveillance fait partie des valeurs fondatrice de Kasa. Tout comportement discriminatoire ou de perturbation de voisinage entrainera une exclusion de notre plateforme.</Collapse>

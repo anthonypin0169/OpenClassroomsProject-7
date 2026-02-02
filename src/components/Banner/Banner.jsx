@@ -1,13 +1,12 @@
 import React from "react"
 import "./Banner.css"
-import bannerImg from "../../img/BannerImg.png"
 
-function Banner() {
-//passer un params dans la zone {} + fleches à changer
+function Banner({pics, title = "Chez vous, partout et ailleurs"}) {
+//fleches à changer
     return (
         <div className="banner"
-        style={{backgroundImage : `url(${bannerImg})`}}>
-            <h1 className="banner_title">Chez vous, partout et ailleurs</h1>
+        style={{backgroundImage : `url(${pics})`}}>
+            {title && <h1 className="banner_title">{title}</h1>}
         </div>
     )
 }

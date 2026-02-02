@@ -1,13 +1,75 @@
 .star {
-  font-size: 24px;
+  width: 24px;
+  height: 24px;
   color: #e3e3e3;
 }
 
 .star--active {
+  width: 24px;
+  height: 24px;
   color: #FF6060;
+}
+
+.tag {
+  height: 25px;
+  min-width: 100px;
+  padding: 0 15px;
+  color: #F1F1F1;
+  background: #FF6060;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.rental-details {
+  margin: 0 100px 50px 100px;
+}
+.rental-details__collapses {
+  display: flex;
+  gap: 76px;
 }
 
 .rental-content {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 24px;
+}
+.rental-content__info-grp-1--title {
+  font-size: 36px;
+  color: #FF6060;
+  margin: 24px 0 0 0;
+}
+.rental-content__info-grp-1--loc {
+  font-size: 18px;
+  margin-top: 0;
+}
+.rental-content__info-grp-1--tags {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.rental-content__info-grp-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+}
+.rental-content__info-grp-2--host {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+}
+.rental-content__info-grp-2--host--name {
+  font-size: 18px;
+  color: #FF6060;
+  margin-right: 10px;
+}
+.rental-content__info-grp-2--host--pics {
+  height: 64px;
+  width: 64px;
+  border-radius: 50px;
+}
+.rental-content__info-grp-2--rating {
+  display: flex;
+  justify-content: end;
 }/*# sourceMappingURL=RentalDetails.css.map */
