@@ -2,3 +2,13 @@
     max-width: 1024px;
     margin: 38px auto;
 }
+@media (max-width: 1200px) {
+    .collapse-container{
+        margin: 38px 100px;
+    }
+}
+@media (max-width: 768px) {
+    .collapse-container{
+        margin: 38px 20px;
+    }
+}

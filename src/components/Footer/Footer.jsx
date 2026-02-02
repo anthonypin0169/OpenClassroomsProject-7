@@ -7,7 +7,7 @@ function Footer() {
     return (
         <section className="footer">
             <Logo src={logo} />
-            <h2 className="footer_title">© 2020 Kasa. All rights reserved</h2>
+            <h2 className="footer__title">© 2020 Kasa. All rights reserved</h2>
         </section>
     )
 }

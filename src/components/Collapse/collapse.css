@@ -51,4 +51,20 @@
 
 .collapse__content.open {
   max-height: 500px;
+}
+
+@media (max-width: 768px) {
+  .collapse {
+    height: 25px;
+  }
+  .collapse__header {
+    font-size: 13px;
+    padding: 0 0 10px 0;
+  }
+  .collapse__title {
+    margin-left: 10px;
+  }
+  .collapse__arrow {
+    margin: 5px 10px 0 0;
+  }
 }/*# sourceMappingURL=collapse.css.map */

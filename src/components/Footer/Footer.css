@@ -7,6 +7,15 @@
   justify-content: center;
   align-items: center;
 }
-.footer_title {
+.footer__title {
   color: white;
+  font-size: 24px;
+}
+
+@media (max-width: 767.98px) {
+  .footer__title {
+    font-size: 12px;
+    width: 123.59px;
+    text-align: center;
+  }
 }/*# sourceMappingURL=Footer.css.map */

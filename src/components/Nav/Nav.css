@@ -11,4 +11,10 @@
 }
 .nav_link:visited {
   color: black;
+}
+
+@media (max-width: 767.98px) {
+  .nav {
+    margin-top: 14px;
+  }
 }/*# sourceMappingURL=Nav.css.map */

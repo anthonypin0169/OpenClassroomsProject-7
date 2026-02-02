@@ -6,7 +6,7 @@ function Banner({pics, title = "Chez vous, partout et ailleurs"}) {
     return (
         <div className="banner"
         style={{backgroundImage : `url(${pics})`}}>
-            {title && <h1 className="banner_title">{title}</h1>}
+            {title && <h1 className="banner__title">{title}</h1>}
         </div>
     )
 }

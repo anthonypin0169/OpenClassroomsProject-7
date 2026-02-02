@@ -25,4 +25,25 @@
 }
 .error__link:visited {
   color: black;
+}
+
+@media (max-width: 1024px) {
+  .error__h1 {
+    font-size: 190px;
+    margin: 113px auto;
+  }
+  .error__h2 {
+    font-size: 24px;
+  }
+}
+@media (max-width: 768px) {
+  .error__h1 {
+    font-size: 96px;
+  }
+  .error__h2 {
+    font-size: 18px;
+    width: 260px;
+    margin-top: 0;
+    text-align: center;
+  }
 }/*# sourceMappingURL=Error.css.map */

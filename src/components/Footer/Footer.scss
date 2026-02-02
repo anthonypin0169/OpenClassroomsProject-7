@@ -6,7 +6,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    &_title{
+    &__title{
         color: white;
+        font-size: 24px;
+    }
+}
+@media (max-width: 767.98px) {
+    .footer__title{
+        font-size: 12px;
+        width: 123.59px;
+        text-align: center;
     }
 }

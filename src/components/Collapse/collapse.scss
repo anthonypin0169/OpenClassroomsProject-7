@@ -50,3 +50,19 @@ transform: rotate(180deg);
 .collapse__content.open {
 max-height: 500px; 
 }
+
+@media (max-width: 768px) {
+    .collapse{
+        height: 25px;
+        &__header{
+            font-size: 13px;
+            padding: 0 0 10px 0;
+        }
+        &__title{
+            margin-left: 10px;
+        }
+        &__arrow{
+            margin: 5px 10px 0 0;
+        }
+    }
+}

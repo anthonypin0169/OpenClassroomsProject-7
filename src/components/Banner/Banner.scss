@@ -9,9 +9,25 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    &_title{
+    &__title{
         font-weight: 700;
         font-size: 48px;
-        // color: white;
+    }
+}
+@media (max-width: 1240px) {
+    .banner{
+       max-width: 760px;
+    }
+}
+@media (max-width: 767.98px) {
+    .banner{
+        max-width: 335px;     
+        height: 111px;
+        justify-content: flex-start;
+        &__title{
+            width: 210px;
+            font-size: 24px;
+            margin-left: 15px;
+        }
     }
 }
