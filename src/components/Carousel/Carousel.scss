@@ -12,11 +12,9 @@
     &__prev {
         left: 20px;
     }
-    
     &__next {
         right: 20px;
     }
-    
     &__counter {
         position: absolute;
         bottom: 20px;
@@ -38,8 +36,36 @@
     color: white;
     cursor: pointer;
 }
+@media (max-width: 1024px) {
+    .carousel{
+        height: 325px;
+        &__prev {
+        left: 0px;
+        }
+        &__next {
+            right: 0px;
+        }
+    }
+    .carousel__prev,
+    .carousel__next {
+        font-size: 50px;
+    } 
+}
 @media (max-width: 767.98px) {
     .carousel{
         height: 225px;
+        &__counter {
+            color: transparent;
+        }
+        &__prev {
+        left: -20px;
+        }
+        &__next {
+            right: -20px;
+        }
+    }
+    .carousel__prev,
+    .carousel__next {
+        font-size: 20px;
     }
 }

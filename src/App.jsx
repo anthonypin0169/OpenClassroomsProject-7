@@ -5,7 +5,7 @@ import Error from "./pages/Error/Error.jsx"
 import Header from "./components/Header/Header.jsx"
 import Footer from "./components/Footer/Footer.jsx"
 import RentalDetails from "./pages/RentalDetails/RentalDetails.jsx"
-
+import RentalData from "./data/rentals.json"
 
 function App() {
 return (
@@ -13,9 +13,9 @@ return (
     <Header />
 
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/" element={<Home rentals = {RentalData}/>} />
       <Route path="/about" element={<About />} />
-      <Route path="/rental/:rentalId" element={<RentalDetails />} />
+      <Route path="/rental/:rentalId" element={<RentalDetails rentals = {RentalData}/>} />
       <Route path="*" element={<Error />} />
     </Routes>
 

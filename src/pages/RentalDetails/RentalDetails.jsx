@@ -1,12 +1,11 @@
 import { useParams, Navigate } from "react-router-dom"
-import rentals from "../../data/rentals.json"
 import Collapse from "../../components/Collapse/Collapse"
 import Carousel from "../../components/Carousel/Carousel"
 import StarActive from "../../img/star-active.svg"
 import StarInactive from "../../img/star-inactive.svg"
 import "./RentalDetails.css"
 
-function RentalDetails() {
+function RentalDetails({rentals}) {
     const { rentalId } = useParams()
     const rental = rentals.find(item => item.id === rentalId)
 

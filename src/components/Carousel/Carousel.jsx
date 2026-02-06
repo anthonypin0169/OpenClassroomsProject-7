@@ -1,5 +1,6 @@
 import { useState } from "react"
 import "./Carousel.css"
+import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'
 
 function Carousel({ pictures }) {
     const [currentIndex, setCurrentIndex] = useState(0)
@@ -27,23 +28,23 @@ function Carousel({ pictures }) {
 
     return (
     <div className="carousel">
-    <img
-    src={pictures[currentIndex]}
-    alt={`Slide ${currentIndex + 1}`}
-    className="carousel__image"
-    />
+        <img
+            src={pictures[currentIndex]}
+            alt={`Slide ${currentIndex + 1}`}
+            className="carousel__image"
+        />
 
-    <button className="carousel__prev" onClick={prevSlide}>
-    ‹
-    </button>
+        <button className="carousel__prev" onClick={prevSlide}>
+            <FaChevronLeft />
+        </button>
 
-    <button className="carousel__next" onClick={nextSlide}>
-    ›
-    </button>
+        <button className="carousel__next" onClick={nextSlide}>
+            <FaChevronRight />
+        </button>
 
-    <span className="carousel__counter">
-    {currentIndex + 1} / {total}
-    </span>
+        <span className="carousel__counter">
+            {currentIndex + 1} / {total}
+        </span>
     </div>
     )
 }

@@ -38,8 +38,36 @@
   cursor: pointer;
 }
 
+@media (max-width: 1024px) {
+  .carousel {
+    height: 325px;
+  }
+  .carousel__prev {
+    left: 0px;
+  }
+  .carousel__next {
+    right: 0px;
+  }
+  .carousel__prev,
+  .carousel__next {
+    font-size: 50px;
+  }
+}
 @media (max-width: 767.98px) {
   .carousel {
     height: 225px;
+  }
+  .carousel__counter {
+    color: transparent;
+  }
+  .carousel__prev {
+    left: -20px;
+  }
+  .carousel__next {
+    right: -20px;
+  }
+  .carousel__prev,
+  .carousel__next {
+    font-size: 20px;
   }
 }/*# sourceMappingURL=Carousel.css.map */
