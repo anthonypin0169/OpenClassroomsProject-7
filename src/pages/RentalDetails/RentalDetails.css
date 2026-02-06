@@ -75,12 +75,20 @@
   border-radius: 10px;
 }
 
+.equipments-list {
+  list-style-type: none;
+}
+
 @media (max-width: 767.98px) {
   .rental-details {
-    margin: 0 20px 50px 20px;
+    margin: 0 20px 30px 20px;
   }
   .rental-details__collapses {
     display: block;
+  }
+  .rental-content {
+    flex-direction: column;
+    margin-bottom: 15px;
   }
   .rental-content__info-grp-1--title {
     font-size: 18px;
@@ -93,9 +101,12 @@
   }
   .rental-content__info-grp-2 {
     gap: 21px;
+    flex-direction: row;
+    justify-content: space-between;
   }
   .rental-content__info-grp-2--host {
     margin-top: 16px;
+    order: 2;
   }
   .rental-content__info-grp-2--host--name {
     font-size: 12px;
@@ -103,6 +114,10 @@
   .rental-content__info-grp-2--host--pics {
     height: 32px;
     width: 32px;
+  }
+  .rental-content__info-grp-2--rating {
+    align-items: center;
+    margin-top: 20px;
   }
   .star {
     width: 18px;

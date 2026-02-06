@@ -21,12 +21,7 @@
   transition: all 0.3s ease;
 }
 .collapse__arrow {
-  width: 0;
-  height: 0;
-  border-left: 8px solid transparent;
-  border-right: 8px solid transparent;
-  border-top: 12px solid white;
-  transition: transform 0.4s ease;
+  transition: transform 0.4 ease;
 }
 .collapse__content {
   max-height: 0;
@@ -45,21 +40,20 @@
   margin: 0;
 }
 
-.collapse__header.open .collapse__arrow {
-  transform: rotate(180deg);
-}
-
 .collapse__content.open {
   max-height: 500px;
 }
 
+.collapse__arrow.open {
+  transform: rotate(180deg);
+}
+
 @media (max-width: 768px) {
-  .collapse {
-    height: 25px;
-  }
   .collapse__header {
     font-size: 13px;
     padding: 0 0 10px 0;
+    height: 25px;
+    padding-top: 7px;
   }
   .collapse__title {
     margin-left: 10px;
