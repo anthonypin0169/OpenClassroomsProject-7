@@ -1,16 +1,17 @@
 .nav{
     display: flex;
-    text-decoration: none;
     gap: 26px;
     &_link{
         color: black;
-        &:active{
+        text-decoration: none;
+        &.active{
             color: black;
-        }
-        &:visited{
-            color: black;
+            text-decoration: underline black;  
         }
     }
+}
+a{
+    color: black;
 }
 @media (max-width: 767.98px) {
   .nav{

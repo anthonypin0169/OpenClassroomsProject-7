@@ -3,6 +3,7 @@
     &__collapses{
         display: flex;
         gap: 76px;
+        align-items: flex-start;
     }
 }
 .rental-content{
@@ -22,6 +23,7 @@
         &--tags{
             display: flex;
             flex-direction: row;
+            flex-wrap: wrap;
             gap: 10px;
             font-size: 14px;
         }

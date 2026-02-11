@@ -1,15 +1,18 @@
 .nav {
   display: flex;
-  text-decoration: none;
   gap: 26px;
 }
 .nav_link {
   color: black;
+  text-decoration: none;
 }
-.nav_link:active {
+.nav_link.active {
   color: black;
+  -webkit-text-decoration: underline black;
+          text-decoration: underline black;
 }
-.nav_link:visited {
+
+a {
   color: black;
 }
 

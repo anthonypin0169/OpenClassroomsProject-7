@@ -2,7 +2,6 @@ import React from "react"
 import "./Banner.css"
 
 function Banner({pics, title = "Chez vous, partout et ailleurs"}) {
-//fleches à changer
     return (
         <div className="banner"
         style={{backgroundImage : `url(${pics})`}}>
